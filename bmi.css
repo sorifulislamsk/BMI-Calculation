@@ -1,0 +1,146 @@
+/* 
+body{
+    overflow: hidden;
+    background-image: url('bgmi\ background.jpg');
+   background-size: cover;
+  
+   background-position: center;
+}
+
+.main{
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    border: 3px solid green;
+  
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(194, 194, 194, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+}
+
+h1{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+h4{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.weight p{
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+
+button{
+display: flex;
+align-items: center;
+justify-content: center;
+width:100px;
+height:25px;
+margin-left: 34%;
+border-radius:5px ;
+cursor: pointer;
+font-size: 20px;
+font-weight: 300;
+}
+
+#height{
+    border-radius: 5px;
+
+}
+#weight{
+    border-radius: 5px;
+    
+}
+
+.result{
+    width: 80%;
+    background-color: rgb(180, 195, 190);
+    margin: 10% 10% 10% 10%;
+   
+}
+form{
+    margin-left: 8%;
+}
+.weight p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input{
+    outline: none;
+}
+span{
+    color:red;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('bgmi\ background.jpg');
+    background-size: cover;
+}
+
+.container {
+    /* background-color: #ffffff; */
+    padding: 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    width: 300px;
+    
+ 
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(148, 149, 153, 0.35);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
